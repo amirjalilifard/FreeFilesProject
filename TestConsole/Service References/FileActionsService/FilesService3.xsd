@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8181/FilesService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/FreeFilesServerConsole.EF" />
+  <xs:import schemaLocation="http://localhost:8181/FilesService?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Entities" />
+  <xs:element name="AddFiles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/FreeFilesServerConsole.EF" minOccurs="0" name="FilesList" nillable="true" type="q1:ArrayOfFile" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Entities" minOccurs="0" name="peer" nillable="true" type="q2:Peer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddFilesResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPeer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/FreeFilesServerConsole.EF" minOccurs="0" name="Peer" nillable="true" type="q3:Peer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPeerResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchAvaiableFiles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fileName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchAvaiableFilesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/FreeFilesServerConsole.EF" minOccurs="0" name="SearchAvaiableFilesResult" nillable="true" type="q4:ArrayOfFile" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

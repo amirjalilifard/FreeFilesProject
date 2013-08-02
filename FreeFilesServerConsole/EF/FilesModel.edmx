@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="FreeFilesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="FreeFilesModelStoreContainer">
+    <EntitySet Name="Files" EntityType="FreeFilesModel.Store.Files" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Peers" EntityType="FreeFilesModel.Store.Peers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="FreeFilesModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Files_Peers" Association="FreeFilesModel.Store.FK_Files_Peers">
+      <End Role="Peers" EntitySet="Peers" />
+      <End Role="Files" EntitySet="Files" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Files">
+    <Key>
+      <PropertyRef Name="FileID" />
+    </Key>
+    <Property Name="FileID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FileName" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="PeerID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FileSize" Type="int" Nullable="false" />
+    <Property Name="FileType" Type="varchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Peers">
+    <Key>
+      <PropertyRef Name="PeerID" />
+    </Key>
+    <Property Name="PeerID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PeerHostName" Type="varchar" Nullable="true" MaxLength="100" />
+    <Property Name="Comments" Type="varchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" Nullable="true" />
+    <Property Name="definition" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <Association Name="FK_Files_Peers">
+    <End Role="Peers" Type="FreeFilesModel.Store.Peers" Multiplicity="1" />
+    <End Role="Files" Type="FreeFilesModel.Store.Files" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Peers">
+        <PropertyRef Name="PeerID" />
+      </Principal>
+      <Dependent Role="Files">
+        <PropertyRef Name="PeerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FreeFilesModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="FreeFilesEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Files" EntityType="FreeFilesModel.File" />
+          <EntitySet Name="Peers" EntityType="FreeFilesModel.Peer" />
+          <AssociationSet Name="FK_Files_Peers" Association="FreeFilesModel.FK_Files_Peers">
+            <End Role="Peers" EntitySet="Peers" />
+            <End Role="Files" EntitySet="Files" />
+          </AssociationSet>
+          <EntitySet Name="sysdiagrams" EntityType="FreeFilesModel.sysdiagram" />
+        </EntityContainer>
+        <EntityType Name="File">
+          <Key>
+            <PropertyRef Name="FileID" />
+          </Key>
+          <Property Name="FileID" Type="Guid" Nullable="false" />
+          <Property Name="FileName" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="PeerID" Type="Guid" Nullable="false" />
+          <Property Name="FileSize" Type="Int32" Nullable="false" />
+          <Property Name="FileType" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Peer" Relationship="FreeFilesModel.FK_Files_Peers" FromRole="Files" ToRole="Peers" />
+        </EntityType>
+        <EntityType Name="Peer">
+          <Key>
+            <PropertyRef Name="PeerID" />
+          </Key>
+          <Property Name="PeerID" Type="Guid" Nullable="false" />
+          <Property Name="PeerHostName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Comments" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Files" Relationship="FreeFilesModel.FK_Files_Peers" FromRole="Peers" ToRole="Files" />
+        </EntityType>
+        <Association Name="FK_Files_Peers">
+          <End Role="Peers" Type="FreeFilesModel.Peer" Multiplicity="1" />
+          <End Role="Files" Type="FreeFilesModel.File" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Peers">
+              <PropertyRef Name="PeerID" />
+            </Principal>
+            <Dependent Role="Files">
+              <PropertyRef Name="PeerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Type="String" Name="name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="principal_id" Nullable="false" />
+          <Property Type="Int32" Name="diagram_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="version" />
+          <Property Type="Binary" Name="definition" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FreeFilesModelStoreContainer" CdmEntityContainer="FreeFilesEntities1">
+    <EntitySetMapping Name="Files">
+      <EntityTypeMapping TypeName="IsTypeOf(FreeFilesModel.File)">
+        <MappingFragment StoreEntitySet="Files">
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="PeerID" ColumnName="PeerID" />
+          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Peers">
+      <EntityTypeMapping TypeName="IsTypeOf(FreeFilesModel.Peer)">
+        <MappingFragment StoreEntitySet="Peers">
+          <ScalarProperty Name="PeerID" ColumnName="PeerID" />
+          <ScalarProperty Name="PeerHostName" ColumnName="PeerHostName" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="IsTypeOf(FreeFilesModel.sysdiagram)">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Assembly" AssemblyTimestamp="04/07/2013 13:50:53" Bounds="804.013333333333,607.76,201.866666666667,25.96" CodeSchemaProperty_StrongName="FreeFilesServerConsole, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(d830ebc2-14ad-4cba-b539-a1fc38deb4d9.OutputPath)" Group="Collapsed" Label="FreeFilesServerConsole.exe" UseManualLocation="True">
+      <Category Ref="FileSystem.Category.FileOfType.exe" />
+    </Node>
+    <Node Id="(@12)" Category="CodeSchema_Assembly" AssemblyTimestamp="04/06/2013 08:33:34" Bounds="174.94,650.64,156.73,25.96" CodeSchemaProperty_StrongName="FreeFiles.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(ad4276b8-f0c2-4475-9c3a-39c6002150a6.OutputPath)" Group="Collapsed" Label="FreeFiles.Server.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="(@15)" Category="CodeSchema_Assembly" AssemblyTimestamp="04/07/2013 09:49:58" Bounds="1077.88166747767,-1.77635683940025E-14,119.21,25.96" CodeSchemaProperty_StrongName="UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(793f1eaa-2170-4b4a-94ea-90d91f695b91.OutputPath)" Group="Collapsed" Label="UnitTest.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="(@16)" Category="CodeSchema_Assembly" AssemblyTimestamp="04/08/2013 16:08:58" Bounds="361.67,650.64,233.29,25.96" CodeSchemaProperty_StrongName="FreeFiles.ServerHost.WebHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(b0e6b377-21f9-409f-8f3f-bc524df0bf21.OutputPath)" Group="Collapsed" Label="FreeFiles.ServerHost.WebHost.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="(@2)" Category="CodeSchema_Assembly" AssemblyTimestamp="04/07/2013 09:49:58" Bounds="0,650.64,144.94,25.96" CodeSchemaProperty_StrongName="TestConsole, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(324dabb0-757f-4715-a891-57ca8de3f179.OutputPath)" Group="Collapsed" Label="TestConsole.exe">
+      <Category Ref="FileSystem.Category.FileOfType.exe" />
+    </Node>
+    <Node Id="(@5)" Category="CodeSchema_Assembly" AssemblyTimestamp="04/01/2013 13:13:20" Bounds="0,477.76,227.893333333333,25.96" CodeSchemaProperty_StrongName="FreeFiles.ServerSearchEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(b2eae48d-10cd-4b1d-b65d-56336ba821a7.OutputPath)" Group="Collapsed" Label="FreeFiles.ServerSearchEngine.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_Assembly" AssemblyTimestamp="04/08/2013 16:08:58" Bounds="258.396666666667,477.76,211.1,25.96" CodeSchemaProperty_StrongName="FreeFile.LocalFileManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(d2d8c37e-5236-4b44-a957-13ab7bd74f24.OutputPath)" Group="Collapsed" Label="FreeFile.LocalFileManager.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@14" Category="CodeSchema_Assembly" AssemblyTimestamp="04/07/2013 10:35:18" Bounds="841.118333333333,807.741120571947,113.656666666667,25.96" CodeSchemaProperty_StrongName="Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(49240d90-c088-4ceb-94ed-631f248d8be6.OutputPath)" Group="Collapsed" Label="Entities.dll" UseManualLocation="True">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@17" Category="CodeSchema_Namespace" Bounds="520,459.561596709417,247.893333333333,86.9202" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FreeFile‎.DownloadManager‎.Abstract" />
+    <Node Id="@18" Category="CodeSchema_Namespace" Bounds="764.906666666667,42.7601,240.48,147.9204" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FreeFiles‎.TransferEngine‎.WCFPNRP" />
+    <Node Id="@19" Category="CodeSchema_Namespace" Bounds="742.411666666667,220.6806,285.47,147.9204" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FreeFiles‎.TransferEngine‎.WCFPNRP‎.Services" />
+    <Node Id="@20" Category="CodeSchema_Class" Bounds="814.821666666667,261.6407,140.65,86.9602" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FileService" />
+    <Node Id="@21" Category="CodeSchema_Interface" Bounds="572.571666666667,500.521696709417,142.75,25.96" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="ITransferEngine" />
+    <Node Id="@22" Category="CodeSchema_Class" Bounds="815.368333333334,83.7202,139.556666666666,86.9602000000001" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="TransferEngine" />
+    <Node Id="@25" Category="CodeSchema_Method" Bounds="834.821666666667,302.640847879854,100.65,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" DelayedCrossGroupLinksState="Fetched" Label="GetFileBytes" />
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="838.211666666667,124.720826822725,93.87,25.96" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="ProvideFile" />
+    <Node Id="@4" Category="CodeSchema_Assembly" AssemblyTimestamp="04/08/2013 16:08:58" Bounds="268.33,180.42,191.233333333333,25.96" CodeSchemaProperty_StrongName="FreeFiles.UI.WinForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(5e42ddbf-a413-4d0e-91ee-6b8d3d835aca.OutputPath)" Group="Collapsed" Label="FreeFiles.UI.WinForm.exe">
+      <Category Ref="FileSystem.Category.FileOfType.exe" />
+    </Node>
+    <Node Id="@7" Category="CodeSchema_Assembly" AssemblyTimestamp="04/07/2013 09:49:57" Bounds="722.411666666667,1.8,325.47,386.8" CodeSchemaProperty_StrongName="FreeFiles.TransferEngine.WCFPNRP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="2" FilePath="$(4374a8e0-988e-4df0-ac9d-0af0fa8b0fdb.OutputPath)" Group="Expanded" Label="FreeFiles.TransferEngine.WCFPNRP.dll" UseManualLocation="True">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@9" Category="CodeSchema_Assembly" AssemblyTimestamp="04/02/2013 14:10:11" Bounds="500,418.601496709417,287.893333333333,147.8804" CodeSchemaProperty_StrongName="FreeFile.DownloadManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(bdf446f0-3e99-4ee0-a154-ef11606794ca.OutputPath)" Group="Expanded" Label="FreeFile.DownloadManager.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="(@1)" Target="@14" Category="References" Bounds="898.715846478258,633.72,5.77647729973933,165.026629051468" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@11" Target="@14" Category="References" Bounds="384.951868382408,503.72,484.333424939476,299.290049235912" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@17" Target="@21" Category="Contains" />
+    <Link Source="@18" Target="@22" Category="Contains" />
+    <Link Source="@19" Target="@20" Category="Contains" />
+    <Link Source="@20" Target="@25" Category="Contains" />
+    <Link Source="@22" Target="@21" Category="Implements" Bounds="253.682411117558,-65.8051150406256,83.7383739922383,154.286303492774" Weight="1" />
+    <Link Source="@22" Target="@26" Category="Contains" />
+    <Link Source="@26" Target="@25" Category="CodeSchema_Calls" Bounds="235.97615667625,120.223453463994,72.7906593803846,188.785018390088" Weight="1" />
+    <Link Source="@4" Target="(@5)" Bounds="130.652008056641,206.380004882813,222.381225585938,264.491333007813" />
+    <Link Source="@4" Target="@11" Bounds="363.946655273438,206.380004882813,0,262.380004882813" />
+    <Link Source="@4" Target="@9" Bounds="376.096092975265,206.38,192.491451047523,205.650783101477" />
+    <Link Source="@7" Target="@18" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@19" Category="Contains" FetchingParent="@7" />
+    <Link Source="@9" Target="@17" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+    <Category Id="FileSystem.Category.FileOfType.dll" BasedOn="CodeSchema_Assembly" CanBeDataDriven="True" IsProviderRoot="False" />
+    <Category Id="FileSystem.Category.FileOfType.exe" BasedOn="CodeSchema_Assembly" CanBeDataDriven="True" IsProviderRoot="False" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="AssemblyTimestamp" DataType="System.DateTime" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsFinal" Label="Is Final" Description="Flag to indicate the member is 'Final' and cannot be derived from" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsSourceVirtualized" Label="Link Source Virtualized" Description="If true, the link source end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="Link Target Virtualized" Description="If true, the link target end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(d830ebc2-14ad-4cba-b539-a1fc38deb4d9.OutputPathUri)" />
+    <Alias n="2" Uri="Assembly=$(324dabb0-757f-4715-a891-57ca8de3f179.OutputPathUri)" />
+    <Alias n="3" Uri="Assembly=$(5e42ddbf-a413-4d0e-91ee-6b8d3d835aca.OutputPathUri)" />
+    <Alias n="4" Id="(@3)" />
+    <Alias n="5" Uri="Assembly=$(b2eae48d-10cd-4b1d-b65d-56336ba821a7.OutputPathUri)" />
+    <Alias n="6" Uri="Assembly=$(4374a8e0-988e-4df0-ac9d-0af0fa8b0fdb.OutputPathUri)" />
+    <Alias n="7" Id="(@6)" />
+    <Alias n="8" Uri="Assembly=$(bdf446f0-3e99-4ee0-a154-ef11606794ca.OutputPathUri)" />
+    <Alias n="9" Id="(@8)" />
+    <Alias n="10" Uri="Assembly=$(d2d8c37e-5236-4b44-a957-13ab7bd74f24.OutputPathUri)" />
+    <Alias n="11" Id="(@10)" />
+    <Alias n="12" Uri="Assembly=$(ad4276b8-f0c2-4475-9c3a-39c6002150a6.OutputPathUri)" />
+    <Alias n="13" Uri="Assembly=$(49240d90-c088-4ceb-94ed-631f248d8be6.OutputPathUri)" />
+    <Alias n="14" Id="(@13)" />
+    <Alias n="15" Uri="Assembly=$(793f1eaa-2170-4b4a-94ea-90d91f695b91.OutputPathUri)" />
+    <Alias n="16" Uri="Assembly=$(b0e6b377-21f9-409f-8f3f-bc524df0bf21.OutputPathUri)" />
+    <Alias n="17" Id="(@8 Namespace=FreeFile.DownloadManager.Abstract)" />
+    <Alias n="18" Id="(@6 Namespace=FreeFiles.TransferEngine.WCFPNRP)" />
+    <Alias n="19" Id="(@6 Namespace=FreeFiles.TransferEngine.WCFPNRP.Services)" />
+    <Alias n="20" Id="(@6 Namespace=FreeFiles.TransferEngine.WCFPNRP.Services Type=FileService)" />
+    <Alias n="21" Id="(@8 Namespace=FreeFile.DownloadManager.Abstract Type=ITransferEngine)" />
+    <Alias n="22" Id="(@6 Namespace=FreeFiles.TransferEngine.WCFPNRP Type=TransferEngine)" />
+    <Alias n="23" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll" />
+    <Alias n="24" Id="(@23 Namespace=System Type=String)" />
+    <Alias n="25" Id="(@6 Namespace=FreeFiles.TransferEngine.WCFPNRP.Services Type=FileService Member=(Name=GetFileBytes OverloadingParameters=[@24]))" />
+    <Alias n="26" Id="(@6 Namespace=FreeFiles.TransferEngine.WCFPNRP Type=TransferEngine Member=(Name=ProvideFile OverloadingParameters=[@24,@24,@24,@24,(@23 Namespace=System Type=Int64)]))" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="324dabb0-757f-4715-a891-57ca8de3f179.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\TestConsole\bin\Debug\TestConsole.exe" />
+    <Path Id="324dabb0-757f-4715-a891-57ca8de3f179.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/TestConsole/bin/Debug/TestConsole.exe" />
+    <Path Id="4374a8e0-988e-4df0-ac9d-0af0fa8b0fdb.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\FreeFiles.TransferEngine.WCFPNRP\bin\Debug\FreeFiles.TransferEngine.WCFPNRP.dll" />
+    <Path Id="4374a8e0-988e-4df0-ac9d-0af0fa8b0fdb.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/FreeFiles.TransferEngine.WCFPNRP/bin/Debug/FreeFiles.TransferEngine.WCFPNRP.dll" />
+    <Path Id="49240d90-c088-4ceb-94ed-631f248d8be6.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\Entities\bin\Debug\Entities.dll" />
+    <Path Id="49240d90-c088-4ceb-94ed-631f248d8be6.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/Entities/bin/Debug/Entities.dll" />
+    <Path Id="5e42ddbf-a413-4d0e-91ee-6b8d3d835aca.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\FreeFiles.UI.WinForm\bin\Debug\FreeFiles.UI.WinForm.exe" />
+    <Path Id="5e42ddbf-a413-4d0e-91ee-6b8d3d835aca.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/FreeFiles.UI.WinForm/bin/Debug/FreeFiles.UI.WinForm.exe" />
+    <Path Id="793f1eaa-2170-4b4a-94ea-90d91f695b91.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\UnitTest\bin\Debug\UnitTest.dll" />
+    <Path Id="793f1eaa-2170-4b4a-94ea-90d91f695b91.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/UnitTest/bin/Debug/UnitTest.dll" />
+    <Path Id="ad4276b8-f0c2-4475-9c3a-39c6002150a6.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\FreeFiles.Server\bin\Debug\FreeFiles.Server.dll" />
+    <Path Id="ad4276b8-f0c2-4475-9c3a-39c6002150a6.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/FreeFiles.Server/bin/Debug/FreeFiles.Server.dll" />
+    <Path Id="b0e6b377-21f9-409f-8f3f-bc524df0bf21.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\FreeFiles.ServerHost.WebHost\bin\FreeFiles.ServerHost.WebHost.dll" />
+    <Path Id="b0e6b377-21f9-409f-8f3f-bc524df0bf21.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/FreeFiles.ServerHost.WebHost/bin/FreeFiles.ServerHost.WebHost.dll" />
+    <Path Id="b2eae48d-10cd-4b1d-b65d-56336ba821a7.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\FreeFiles.ServerSearchEngine\bin\Debug\FreeFiles.ServerSearchEngine.dll" />
+    <Path Id="b2eae48d-10cd-4b1d-b65d-56336ba821a7.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/FreeFiles.ServerSearchEngine/bin/Debug/FreeFiles.ServerSearchEngine.dll" />
+    <Path Id="bdf446f0-3e99-4ee0-a154-ef11606794ca.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\FreeFile.DownloadManager\bin\Debug\FreeFile.DownloadManager.dll" />
+    <Path Id="bdf446f0-3e99-4ee0-a154-ef11606794ca.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/FreeFile.DownloadManager/bin/Debug/FreeFile.DownloadManager.dll" />
+    <Path Id="d2d8c37e-5236-4b44-a957-13ab7bd74f24.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\FreeFile.LocalFileManager\bin\Debug\FreeFile.LocalFileManager.dll" />
+    <Path Id="d2d8c37e-5236-4b44-a957-13ab7bd74f24.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/FreeFile.LocalFileManager/bin/Debug/FreeFile.LocalFileManager.dll" />
+    <Path Id="d830ebc2-14ad-4cba-b539-a1fc38deb4d9.OutputPath" Value="C:\Users\Pooya\Desktop\FreeFiles\FreeFiles\FreeFilesServerConsole\bin\Debug\FreeFilesServerConsole.exe" />
+    <Path Id="d830ebc2-14ad-4cba-b539-a1fc38deb4d9.OutputPathUri" Value="file:///C:/Users/Pooya/Desktop/FreeFiles/FreeFiles/FreeFilesServerConsole/bin/Debug/FreeFilesServerConsole.exe" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>
